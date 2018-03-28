@@ -8,7 +8,6 @@ public class tst {
 		Point P2 = new Point (2,1);
 		Point P3 = new Point (2,1);
 		Robot R = new Robot();
-		Robot R1 = new Robot(5);
 		/*P1.add(P3);
 		P3=Point.add(P1, P2);*/
 		String s="";
