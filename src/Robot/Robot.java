@@ -24,7 +24,7 @@ public class Robot {
 			this.Articulations = new LinkedList <Point>();
 			distance = new int [n-1];
 			this.base = base;
-			this.Articulations.add( this.base );
+			this.Articulations.add(new Point(this.base.x,this.base.y) );
 			
 			Point tmp=new Point ();
 			for (int i=0;i<n-1;i++)
@@ -42,7 +42,7 @@ public class Robot {
 			Point tmp=new Point ();
 			this.Articulations = new LinkedList <Point>();
 			distance = new int [n];
-			this.Articulations.add( this.base );
+			this.Articulations.add(new Point(this.base.x,this.base.y) );
 			for (int i=0;i<n;i++)
 			{
 				distance [i] =dist[i];
